@@ -18,7 +18,7 @@ export default function Index() {
               title="LinkedIn profile"
             />
           </a>
-          <a className={styles.navLink}>
+          <a className={styles.navLink} href="/resume.pdf" target="_blank">
             <Image
               src="/cv.png"
               width={48}
@@ -40,8 +40,8 @@ export default function Index() {
           <section className={styles.section}>
             <h2>About</h2>
             <p>
-              A software developer with over a year of experience in software
-              development. I currently work as an engineer for{" "}
+              I am a software developer with over a year of experience in the
+              industry. I currently work as an engineer for{" "}
               <a
                 href="https://microinvest.net/"
                 target="_blank"
@@ -49,8 +49,8 @@ export default function Index() {
               >
                 Microinvest
               </a>
-              , developing accounting and commerce software. I develop a
-              Scrum-like internal web app for the company. In my free time I
+              , developing accounting and commerce software. I'm also developing
+              a Scrum-like internal web app for the company. In my free time I
               seek a broader set of skills by diving into frontend technologies.
             </p>
           </section>
@@ -68,15 +68,18 @@ export default function Index() {
               <p>During my employment I've been involved in:</p>
               <ul className={styles.products}>
                 <li>
-                  <strong>Jira-clone for our software testing process</strong> -
-                  JavaScript, React, ASP .NET
+                  <strong>
+                    Jira-clone for organizing the software testing process
+                  </strong>{" "}
+                  - Built with JavaScript, React and ASP .NET
                 </li>
                 <li>
                   <strong>Sendera</strong> - Extracts data from documents using
-                  OCR. I work with the following technologies: C#, WPF
+                  OCR. Created with C# and WPF
                 </li>
                 <li>
-                  <strong>Price Checker</strong> - C#, Xamarin
+                  <strong>Price Checker</strong> - A mobile application for
+                  scanning product printed labels. Developed with C# and Xamarin
                 </li>
               </ul>
             </div>
