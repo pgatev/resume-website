@@ -50,7 +50,7 @@ export default function Index() {
                 Microinvest
               </a>
               , developing accounting and commerce software. I develop a
-              scrum-like internal web app for the company. In my free time i
+              Scrum-like internal web app for the company. In my free time I
               seek a broader set of skills by diving into frontend technologies.
             </p>
           </section>
