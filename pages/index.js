@@ -9,7 +9,11 @@ export default function Index() {
           <p className={styles.subtitle}>Software developer</p>
         </div>
         <nav className={styles.navLinks}>
-          <a className={styles.navLink}>
+          <a
+            className={styles.navLink}
+            href="https://www.linkedin.com/in/petar-gatev-2606a3257/"
+            target="_blank"
+          >
             <Image
               src="/linkedin.png"
               width={48}
