@@ -38,6 +38,7 @@ export default function Index() {
           <div className={styles.cloud1}></div>
           <div className={styles.cloud2}></div>
           <div className={styles.cloud3}></div>
+          <div className={styles.cloud4}></div>
           <h2 className={styles.tagline}>Software developer based in Sofia.</h2>
         </div>
         <div className={styles.sections}>
@@ -95,35 +96,30 @@ export default function Index() {
                 <Image
                   style={{ borderRadius: "1rem" }}
                   src="/js-logo.png"
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                   alt="javascript"
                 />
               </li>
               <li>
                 <Image
                   src="/csharp-logo.png"
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                   alt="c sharp"
                 />
               </li>
               <li>
-                <Image
-                  src="/html-logo.png"
-                  width={100}
-                  height={100}
-                  alt="html"
-                />
+                <Image src="/html-logo.png" width={80} height={80} alt="html" />
               </li>
               <li>
-                <Image src="/css-logo.png" width={100} height={100} alt="css" />
+                <Image src="/css-logo.png" width={80} height={80} alt="css" />
               </li>
               <li>
                 <Image
                   src="/react-logo.png"
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                   alt="react"
                 />
               </li>
